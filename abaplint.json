@@ -1,0 +1,23 @@
+{
+  "global": {
+    "files": "/*.abap",
+    "skipGeneratedGatewayClasses": true
+  },
+  "syntax": {
+    "version": "v757",
+    "errorNamespace": "^(Z|Y|LCL_|LTC_|LIF_)"
+  },
+  "rules": {
+    "unknown_types": false,
+    "check_syntax": true,
+    "parser_error": true,
+    "line_length": {"length": 150},
+    "unused_variables": true,
+    "unused_types": true,
+    "forbidden_identifier": false,
+    "prefer_inline": true,
+    "local_testclass_naming": false,
+    "method_length": false,
+    "cyclomatic_complexity": false
+  }
+}
